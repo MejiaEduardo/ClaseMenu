@@ -10,7 +10,7 @@ def show_careers(carreras):
     for carrera in carreras:
         print(f"Nombre: {carrera['carrera']}")
 
-def update_career(carreras):
+def Actualizar_carrera(carreras):
     nombre_carrera = input("Ingrese el nombre de la carrera: ")
     nuevo_nombre = input("Ingrese el nuevo nombre de la carrera: ")
 
@@ -22,7 +22,7 @@ def update_career(carreras):
 
     print("Carrera no encontrada.")
 
-def delete_career(carreras):
+def delete_carrera(carreras):
     nombre_eliminar = input("Nombre de la carrera que desea eliminar: ")
 
     for carrera in carreras:
@@ -33,7 +33,7 @@ def delete_career(carreras):
 
     print("Carrera no encontrada.")
 
-def add_classes(carreras):
+def add_clases(carreras):
     nombre_carrera = input("Ingrese el nombre de la carrera para agregar clases: ")
 
     for carrera in carreras:
@@ -47,7 +47,7 @@ def add_classes(carreras):
 
     print("Carrera no encontrada.")
 
-def show_classes(carreras):
+def Leer_clases(carreras):
     nombre_carrera = input("Ingrese el nombre de la carrera: ")
 
     for carrera in carreras:
@@ -62,7 +62,7 @@ def show_classes(carreras):
 
     print("Carrera no encontrada.")
 
-def update_classes(carreras):
+def Actualizar_clases(carreras):
     nombre_carrera = input("Ingrese el nombre de la carrera: ")
 
     for carrera in carreras:
@@ -82,7 +82,7 @@ def update_classes(carreras):
 
     print("Carrera no encontrada.")
 
-def delete_classes(carreras):
+def delete_clases(carreras):
     nombre_carrera = input("Ingrese el nombre de la carrera: ")
     nombre_eliminar = input("Ingrese el nombre de la clase que desea eliminar: ")
 
@@ -120,9 +120,9 @@ def main():
         elif opcion == 2:
             show_careers(carreras)
         elif opcion == 3:
-            update_career(carreras)
+            Actualizar_carrera(carreras)
         elif opcion == 4:
-            delete_career(carreras)
+            delete_carrera(carreras)
         elif opcion == 5:
             while True:
                 try:
@@ -138,13 +138,13 @@ def main():
                     continue
 
                 if opcion_clase == 1:
-                    add_classes(carreras)
+                    add_clases(carreras)
                 elif opcion_clase == 2:
-                    show_classes(carreras)
+                    Leer_clases(carreras)
                 elif opcion_clase == 3:
-                    update_classes(carreras)
+                    Actualizar_clases(carreras)
                 elif opcion_clase == 4:
-                    delete_classes(carreras)
+                    delete_clases(carreras)
                 elif opcion_clase == 5:
                     print("Regresando al menu anterior....")
                     break
