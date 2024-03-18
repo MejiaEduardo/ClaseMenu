@@ -1,0 +1,77 @@
+*{
+    column-gap: normal;
+    
+}
+
+body{
+  background-color: azure;
+}
+
+.from
+
+h1{
+  position: absolute;
+  text-align: center;
+}
+
+#label{
+  text-align: center;
+}
+
+
+.InformacionPersonal{
+  display: flex;
+  justify-self: space-around;
+}
+
+#info{
+  border: #e41818;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  text-align: justify;
+
+}
+
+#Genero{
+  text-align: right;
+  justify-content: space-between;
+}
+
+
+.Enfermedades{
+  display: flex;
+}
+
+.dificil{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+  
+
+.contenedor-botones {
+  display: flex;
+  text-align: left; /* Alinea los botones a la derecha */
+  margin-top: 0px; /* Espacio desde arriba */
+}
+
+.boton {
+  display: flex;
+  width: 120px;/*Ancho del boton*/
+  height: 50px;/*Altura del boton*/
+  margin-right: 100px;/*separacion de los botones*/
+  margin-top: 20px;/*mover los botones hacia abajo*/
+  background-color:rgb(36, 91, 137);;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 20px;/*Tamaño del texto del boton*/
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.boton:hover {
+  background-color: #e41818;
+}
+ 

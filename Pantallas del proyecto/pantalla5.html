@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>FICHA DEL EMPLEADO</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <form style="background-color:  rgb(17, 177, 226);;"> 
+        <fieldset>
+            <h1 style="text-align: center; background-color: rgb(17, 177, 226);" " >Información Personal del Empleado</h1><br>
+            <div class="container"> 
+                <div id="Informacion">
+                    <label for="fullName">NOMBRE COMPLETO:</label>
+                    <input type="text" id="fullName" name="fullName"><br>
+                    <label for="birthDate">FECHA NACIMIENTO:</label>
+                    <input type="date" id="birthDate" name="birthDate"><br>
+                    <label for="identification">IDENTIFICACIÓN:</label>
+                    <input type="text" id="identification" name="identification"><br>
+                    <label for="specialty">ESPECIALIDAD:</label>
+                    <input type="text" id="specialty" name="specialty"><br>
+                    <label for="birthDate">FECHA Contratacion:</label>
+                    <input type="date" id="birthDate" name="birthDate"><br>
+                    <label for="address">Dirección</label>
+                    <input type="text" id="address" name="address"><br>
+                </div>
+
+                <div id="arreglos">
+                    <label for="sexo">Genero</label>
+                    <label for="sexoF">F</label><input type="checkbox" id="sexoF" name="sexoF">
+                    <label for="sexoM">M</label>
+                    <input type="checkbox" id="sexoM" name="sexoM"><br>
+                    <label for="EstadoCivil">Estado Civil</label>
+                        <select id="EstadoCivil" name="EstadoCivil"> 
+                            <option value="none">-- Seleccione --</option>
+                            <option value="Soltero">Soltero</option>
+                            <option value="Casado">Casado</option>
+                        </select><br>
+                </div>
+                
+            </div>
+
+
+            <div class="nose">
+                <div id="Correo">
+                    <label for="email">Correo Electrinico</label>
+                    <input type="email" id="email" name="email"><br>
+                </div>
+                <div id="tel">
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" name="telefono"><br>
+                </div>
+            </div>
+            
+            <div class="contenedor">
+                <div id="label">
+                    <label for="contacto">Contacto de Emergencia</label>
+                </div>
+                <div id="ing">
+                    <label for="ing">Ingreso</label>
+                </div>
+                
+            </div>
+            
+
+            <div class="botones">
+                
+                <div id="contactos">
+                    <label for="fullName">NOMBRE COMPLETO:</label>
+                    <input type="text" id="fullName" name="fullName"><br>
+                    <label for="fullParentesco">Parentesco:</label>
+                    <input type="text" id="fullParentesco" name="fullParentesco"><br>
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" name="telefono"><br> 
+                </div>
+
+                <div id="Ingreso">
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" id="contraseña" name="contraseña"><br>
+                    <label for="contraseña2">Confirmar Contraseña:</label>
+                    <input type="password" id="contraseña2" name="contraseña2"><br>
+                </div>
+            </div>
+
+            <div class="contenedor-botones">
+                <button class="boton">AGREGAR</button>
+                <button class="boton">MODIFICAR</button>
+                <button class="boton">ELIMINAR</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

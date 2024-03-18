@@ -1,0 +1,95 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200px;
+    font-weight: normal;
+    color: rgb(37, 64, 97);
+    text-align: center;
+}
+.info {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px; /* Movimiento a la derecha */
+}
+
+/* Estilos para la imagen en el cuadro de información */
+.info img {
+    width: 500px; /* Ancho de la imagen */
+    height: 500px; /* Altura de la imagen */
+    border-radius: 50%; /* Borde redondeado */
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 54px; /* Tamaño del texto del nombre */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilos para el texto del DNI */
+.info p {
+    font-size: 54px; /* Tamaño del texto del DNI */
+}
+ /* Estilos para la imagen */
+
+.imagen-izquierda {
+    position: absolute; /* Posición absoluta */
+    top: 90%; /* Centra verticalmente */
+    left: 10px; /* Distancia desde el borde izquierdo */
+    transform: translateY(-50%); /* Ajusta la posición vertical */
+    z-index: -1; /* Coloca la imagen detrás del contenido */
+    width: 100%; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    
+}
+
+ /* Estilos generales para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Espacio entre las tablas */
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 40px; /* Ajusta el espacio alrededor del contenido */
+    font-size: 40px; /* Tamaño del texto */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+table + table {
+    margin-top: 100px; /* Espacio entre las dos tablas*/
+}
+
+ /* Estilos para los botones */
+.contenedor-botones {
+    text-align: center; /* Alinea los botones a la izquierda */
+    margin-top: 10px; /* Mueve los botones hacia abajo */
+
+}
+
+.boton {
+    width: 370px;/*ancho del boton*/
+    height: 220px;/*altura del boton*/
+    display: block; /* Muestra los botones uno debajo del otro */
+    margin-bottom: 50px; /* Espacio entre los botones */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: #45a049;
+
+}

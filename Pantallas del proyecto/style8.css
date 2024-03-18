@@ -1,0 +1,130 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+
+body{
+    background: #f5f6fa;
+}
+
+.wrapper .sidebar{
+    background: rgb(5,68,104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+
+}
+
+
+.wrapper.sidebar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.wrapper .sidebar .profile img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3{
+        color: white;
+        margin: 0 auto;
+        display: block;
+        width: fit-content; /* Ajusta el ancho del elemento al contenido */
+    
+}
+
+
+.wrapper .sidebar .profile p {
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #10558d;
+    
+}
+
+
+.wrapper .sidebar ul li{
+    margin-bottom: 15px;
+    
+}
+.wrapper .sidebar ul li a{
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: white;
+    font-size: 15px;
+    position: relative;
+}
+
+.wrapper .sidebar ul li a .icon{
+    color: #dee4ec;
+    width: 30px;
+    display: inline-block;
+}
+
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+    color: #0c7db1;
+    background: rgb(116, 192, 230);
+    border-right: 2px solid rgb(5,68,104);
+
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+    color: #0c7db1;
+}
+
+
+.wrapper .sidebar ul li a:hover::before,
+.wrapper .sidebar ul li a.active::before{
+    display: block;
+}
+
+
+.wrapper .section{
+    width: calc(100% - 225px);
+    margin-left: 225px;
+    transition: all 0.5s ease;
+}
+
+.wrapper .section .top_navbar{
+    background-color: rgb(7,105,185);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.wrapper .section .top_navbar .hamburger a{
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.wrapper .section .top_navbar .hamburger a:hover{
+    color: #47b0f6;
+}
+
+body.active .wrapper .sidebar{
+    left: -225px;
+}
+
+body.active .wrapper .section{
+    margin-left: 0;
+    width:  100%;
+}

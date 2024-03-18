@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style6.css">
+    <title>Paciente Information</title>
+</head>
+<body>
+    <form style="border: 2% ;">
+            <h1>FICHA DEL PACIENTE</h1>
+            <label id="label"> Informacion Personal</label>
+
+            <div class="InformacionPersonal">
+                <div id="info">
+                    <label for="fullName">NOMBRE COMPLETO:</label>
+                    <input type="text" id="fullName" name="fullName"><br>
+                    <label for="birthDate">FECHA NACIMIENTO:</label>
+                    <input type="date" id="birthDate" name="birthDate"><br>
+                    <label for="identification">IDENTIFICACIÓN:</label>
+                    <input type="text" id="identification" name="identification"><br>
+                    <label for="occupation">OCUPACIÓN:</label>
+                    <input type="text" id="occupation" name="occupation"><br>
+                    <label for="address">DIRECCIÓN:</label>
+                    <input type="text" id="address" name="address"><br>
+                </div>
+                <hr style="padding-left: 5px;">
+                
+                <div class="Genero" style="position: relative;">
+                    <label for="sexo">Genero</label>
+                    <label for="sexoF">F</label> <input type="checkbox" id="sexoF" name="sexoF">
+                    <label for="sexoM">M</label>
+                    <input type="checkbox" id="sexoM" name="sexoM"><br>
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+            </div>
+            <hr>
+            <div class="Enfermedades">
+                <div id="Botox">
+                    <label id="facil" for="baseDiseases">Enfermedades Base:</label><br>
+                    <label for="Cardiaca">Enfermedad Cardiacas</label>
+                    <input type="checkbox" name="Cardiaca" id="Cardiaca"><br>
+                    <label for="Respiratoria">Enfermedad Respiratoria</label>
+                    <input type="checkbox" name="Respiratoria" id="Respiratoria"><br>
+                    <label for="Cancer">Cancer</label>
+                    <input type="checkbox" name="cancer" id="canceer"><br>
+                    <label for="hipertension">Hipertension</label>
+                    <input type="checkbox" name="hipertension" id="hipertencion"><br>                  
+                    <label for="asma">ASMA</label>
+                    <input type="checkbox" name="asma" id="asma"><br>
+                    <label for="alzaheimer">Hipertension</label>
+                    <input type="checkbox" name="alzaheimer" id="alzaheimer"><br>
+                    <label for="otro">Otra</label>
+                    <input type="text" id="otro" name="otro">
+                </div>
+                <hr style="margin-left: 15px;" style="margin-right: 15px;">
+                
+                
+                <div class="Informacion">
+                    <label id="dificil" for="contacto">Contacto de Emergencia</label><br>
+                    <label for="fullName">NOMBRE COMPLETO:</label>
+                    <input type="text" id="fullName" name="fullName"><br>
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" name="telefono"><br>
+                    <label for="fullParentesco">Parentesco:</label>
+                    <input type="text" id="fullParentesco" name="fullParentesco"><br>
+                    <label id="ingre" for="ingre">Ingreso</label>
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" id="contraseña" name="contraseña"><br>
+                    <label for="contraseña2">Confirmar Contraseña:</label>
+                    <input type="password" id="contraseña2" name="contraseña2"><br>
+                </div> 
+            </div>
+
+
+            <hr>            
+            <div class="contenedor-botones">
+                <button class="boton">AGREGAR</button>
+                <button class="boton">MODIFICAR</button>
+                <button class="boton">ELIMINAR</button>
+            </div>
+    </form>
+</body>
+</html>

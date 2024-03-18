@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style8.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="profile">
+                <img src="perf.jpg" alt="">
+                <h3>Diego Ruiz</h3>
+                <p>Administrador</p>
+            </div>
+            <ul>
+                <li><a href="#">
+                    <span class="icon"><i class="fas fa-add"></i></span>
+                    <span class="item">Calendario Citas</span>
+                </a></li>
+                <li><a href="#">
+                    <span class="icon"><i class="fas fa-list"></i></span>
+                    <span class="item">Listado Personal</span>
+                </a></li>
+                <li><a href="#">
+                    <i class=""></i>
+                    <span class="icon"><i class="fas fa-user"></i></span>
+                    <span class="item">Buscar Paciente</span>
+                </a></li>
+
+                <li><a href="#">
+                    <i class=""></i>
+                    <span class="icon"><i class="fas fa-user"></i></span>
+                    <span class="item">Crear Expediente</span>
+                </a></li>
+
+                <li><a href="#">
+                    <span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>
+                    <span class="item">Cerrar Sesión</span>
+                </a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="top_navbar">
+                <div class="hamburger">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        var hamburger= document.querySelector(".hamburger");
+        hamburger.addEventListener("click", function(){
+            document.querySelector("body").classList.toggle("active");
+        })
+    </script>
+</body>
+</html>

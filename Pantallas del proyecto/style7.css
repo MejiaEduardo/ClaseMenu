@@ -1,0 +1,90 @@
+
+*{
+    background-color: rgb(109, 180, 171);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background: local;
+    background-color: rgb(36, 91, 137);
+}
+
+.Frontal{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Hospital{
+  width: 50%;
+  height: auto;
+  margin: 2% 4%;
+  float: left;  
+}
+
+.Contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 52px); /*Se le resta el tamaño de la barra superior*/
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    justify-self: auto;
+}
+
+#num{
+  border: rgb(52, 15, 141) 2px solid;
+  margin: 20px;
+  text-align: left;
+}
+
+#Nam{
+  border: rgb(52, 15, 141) 2px solid;
+  margin: 20px;
+  text-align: left;
+}
+
+#dni{
+  border: rgb(52, 15, 141) 2px solid;
+  margin: 20px;
+  text-align: left;
+}
+
+#cargo{
+  border: rgb(52, 15, 141) 2px solid;
+  margin: 20px;
+  text-align: left;
+}
+
+
+
+
+.contenedor-botones {
+    display: flex;
+    text-align: left; /* Alinea los botones a la derecha */
+    margin-top: 0px; /* Espacio desde arriba */
+    justify-content: space-around;
+  }
+  
+  .boton {
+    display: flex;
+    width: 120px;/*Ancho del boton*/
+    height: 50px;/*Altura del boton*/
+    margin-right: 100px;/*separacion de los botones*/
+    margin-top: 20px;/*mover los botones hacia abajo*/
+    background-color:rgb(36, 91, 137);;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 20px;/*Tamaño del texto del boton*/
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+    text-decoration: none;
+  }
+  
+  .boton:hover {
+    background-color: #e41818;
+  }
+   

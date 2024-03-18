@@ -1,0 +1,101 @@
+
+*{
+    background-color:rgb(17, 177, 226);;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+
+
+.container {
+    display: flex;
+    justify-self: space-around;
+   
+}
+
+#arreglos{
+    margin-left: 180px;
+}
+
+#nose{
+    display: flex;
+    padding: 5px;
+    border: solid black;
+    width: 32%;
+    height: 40vh;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 
+}
+
+#tel{
+ 
+    text-align: left;
+}
+
+
+.contenedor{
+    display: flex;
+    padding: 10px;
+}
+
+#label{
+    font-size: 20pt;
+    color: black;
+    text-align: left;
+    height: 70px; /* Height of the header */
+}
+
+#ing{
+    padding: 5px;
+    justify-content: space-around;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+
+}
+
+.botones{
+    display: flex;
+    padding: auto;
+    margin-top: 5px;
+   
+}
+
+#Ingreso{
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: auto;
+}
+
+.contenedor-botones {
+    display: flex;
+    text-align: left; /* Alinea los botones a la derecha */
+    margin-top: 0px; /* Espacio desde arriba */
+}
+
+.boton {
+    display: flex;
+    width: 120px;/*Ancho del boton*/
+    height: 50px;/*Altura del boton*/
+    margin-right: 100px;/*separacion de los botones*/
+    margin-top: 20px;/*mover los botones hacia abajo*/
+    background-color:rgb(36, 91, 137);;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 20px;/*Tamaño del texto del boton*/
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: #e41818;
+}
